@@ -807,7 +807,7 @@ margin-bottom: 1rem;
 }
 
 .brandguide {
-	margin-top: -20rem;
+	margin-top: -12rem;
 }
 
 .footer_rebranding {
@@ -1369,6 +1369,7 @@ footer {
 
 .images2 img {
 	width: 28rem;
+	margin-left: 3rem;
 	margin-bottom: 2rem;
 }
 
@@ -1632,7 +1633,7 @@ footer {
  border: 1px solid black;
  width: 50rem;
 }
-.portfolio-menu .cre:hover {
+.portfolio-menu .crearc:hover {
  border-radius: 80%;
  border: 1px solid black;
  width: 52rem;
