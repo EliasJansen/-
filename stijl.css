@@ -1,5 +1,5 @@
 body {
-	max-width: 50rem;
+	width: 100%;
 }
 
 
@@ -9,6 +9,36 @@ body {
 	margin-top: 3rem;
 }
 
+
+.container {
+    margin: 200px auto;
+    width: 100%;
+    padding: 200px 0px;
+    position: relative;
+}
+
+
+.para {
+    color: black;
+		font-family: "Monument Extended", sans-serif;
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: -70%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.para span {
+    position: relative;
+    display: block;
+
+}
 
 
 .posterja {
@@ -305,12 +335,12 @@ li {
 
 
 h1 {
-font-family: 'Roboto', sans-serif;
+font-family: "Monument Extended", sans-serif;
 font-size: 2rem;
 position: absolute;
 top: 12rem;
 left: 2rem;
-width: 20rem;
+width: 25rem;
 animation-name: h1;
 animation-duration: 1.2s;
 animation-delay: 0.5s;
@@ -1072,6 +1102,10 @@ margin-bottom: 1rem;
 		width: 40rem;
 	}
 
+	body {
+ width: 100%;
+	}
+
 	#canvas {
 	  position: absolute;
 	  top: 35rem;
@@ -1083,9 +1117,25 @@ margin-bottom: 1rem;
 	  animation-fill-mode: backwards;
 	}
 
+	.para {
+	    color: black;
+			font-family: "Monument Extended", sans-serif;
+	    margin: 0;
+	    font-size: 40px;
+	    width: 100%;
+	    text-align: center;
+	    position: absolute;
+	    top: 60%;
+	    left: -80%;
+	    transform: translateY(-50%);
+	    z-index: 2;
+	    text-transform: uppercase;
+	    white-space: nowrap;
+	}
+
 	h1 {
 	font-size: 5rem;
-	width: 60rem;
+	width: 80rem;
 	}
 
 	.icons {
