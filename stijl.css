@@ -1,4 +1,12 @@
-
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('MonumentExtended-Regular.eot');
+    src: url('MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
+         url('MonumentExtended-Regular.woff2') format('woff2'),
+         url('MonumentExtended-Regular.woff') format('woff'),
+         url('MonumentExtended-Regular.ttf')  format('truetype'),
+         url('MonumentExtended-Regular.svg#Monument Extended') format('svg');
+}
 
 body {
 	width: 100%;
@@ -390,7 +398,7 @@ li {
 
 
 h1 {
-font-family: orpheuspro, serif;
+font-family: 'Monument Extended';;
 font-size: 2rem;
 position: absolute;
 top: 12rem;
@@ -1181,9 +1189,8 @@ margin-bottom: 1rem;
 	}
 
 	h1 {
-	font-size: 8rem;
+	font-size: 5rem;
 	width: 80rem;
-	font-family: bold;
 	}
 
 	.icons {
