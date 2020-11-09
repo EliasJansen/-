@@ -1,11 +1,12 @@
 @font-face {
-font-family: 'Monument Extented';
-src: url('MonumentExtented-regular.eot'); /* IE9 Compat Modes */
-src: url('mywebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-url('MonumentExtented-regular.woff') format('woff'), /* Modern Browsers */
-url('MonumentExtented-regular.otf') format('otf')
-url('MonumentExtented-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-url('MonumentExtented.svg#svgFontName') format('svg'); /* Legacy iOS */}
+    font-family: 'Monument Extended';
+    src: url('fonts/MonumentExtended-Regular.eot');
+    src: url('fonts/MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MonumentExtended-Regular.woff2') format('woff2'),
+         url('fonts/MonumentExtended-Regular.woff') format('woff'),
+         url('fonts/MonumentExtended-Regular.ttf')  format('truetype'),
+         url('fonts/MonumentExtended-Regular.svg#Monument Extended') format('svg');
+}
 
 body {
 	width: 100%;
