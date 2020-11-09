@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Monument Extended';
-    src: url('fonts/MonumentExtended-Regular.eot');
-    src: url('fonts/MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/MonumentExtended-Regular.woff2') format('woff2'),
-         url('fonts/MonumentExtended-Regular.woff') format('woff'),
-         url('fonts/MonumentExtended-Regular.ttf')  format('truetype'),
-         url('fonts/MonumentExtended-Regular.svg#Monument Extended') format('svg');
+    src: url('MonumentExtended-Regular.eot');
+    src: url('MonumentExtended-Regular.eot?#iefix') format('embedded-opentype'),
+         url('MonumentExtended-Regular.woff2') format('woff2'),
+         url('MonumentExtended-Regular.woff') format('woff'),
+         url('MonumentExtended-Regular.ttf')  format('truetype'),
+         url('MonumentExtended-Regular.svg#Monument Extended') format('svg');
 }
 
 body {
@@ -398,7 +398,7 @@ li {
 
 
 h1 {
-font-family: Monument Extended;
+font-family: 'Monument Extended';
 font-size: 2rem;
 position: absolute;
 top: 12rem;
