@@ -161,9 +161,4 @@ let menuKnop = document.querySelector(".menu");
 
 // image
 
-
-var image = document.getElementsByClassName('ani');
-    new simpleParallax(image, {
-          scale: 1.6,
-          orientation: 'right'
-    });
+s

@@ -11,19 +11,14 @@
 body {
 	width: 100%;
 	cursor: none;
+	background: url(background.jpg) no-repeat 50% 50%;
+		background-size: cover;
+		background-attachment: fixed;
 }
 
 
 
-.cursor {
-      pointer-events: none;
-      position: fixed;
-      padding: 1rem;
-      border: 1px solid black;
-      border-radius: 50%;
-      transition: transform 0.3s ease;
-			z-index: 1;
-}
+
 
 
 .design8 p {
@@ -37,7 +32,7 @@ body {
 }
 
 .oostende img {
-width: 30rem;
+width: 20rem;
 position: absolute;
 top: 50rem;
 left: 3rem;
@@ -47,8 +42,8 @@ z-index: 0;
 
 .oostende a {
 	position: absolute;
-	top: 83rem;
-	left: 14rem;
+	top: 84rem;
+	left: 12rem;
 	font-family: roboto;
 	text-decoration: none;
 	color: black;
@@ -67,8 +62,9 @@ z-index: 0;
 
 .arte2 p {
 	font-family: monospace;
-	margin-top: 8rem;
+	margin-top: 14rem;
 	margin-left: -1rem;
+  width: 20rem;
 }
 
 
@@ -82,7 +78,7 @@ z-index: 0;
 
 .para {
     color: black;
-		font-family: "Monument Extended", sans-serif;
+		font-family: 'Monument Extended';
     margin: 0;
     font-size: 20px;
     width: 100%;
@@ -135,7 +131,7 @@ z-index: 0;
 .galleryhavenhuis {
 	position: absolute;
 	top: 125rem;
-	left: 10rem;
+	left: 6rem;
 }
 .galleryhavenhuis img {
 	width: 15rem;
@@ -187,7 +183,7 @@ z-index: 0;
 .cre {
 	position: absolute;
 	top: 185rem;
-	left: 10rem;
+	left: 5rem;
 	width: 15rem;
 }
 
@@ -198,7 +194,7 @@ z-index: 0;
 	position: absolute;
 	font-size: 1rem;
 	top: 203rem;
-	left: 19rem;
+	left: 10rem;
 	color: black;
 	text-decoration: none;
 }
@@ -399,11 +395,12 @@ li {
 
 h1 {
 font-family: 'Monument Extended';;
-font-size: 2rem;
+font-size: 2.5rem;
 position: absolute;
 top: 12rem;
+right: 7rem;
 left: 2rem;
-width: 25rem;
+width: 22rem;
 animation-name: h1;
 animation-duration: 1.2s;
 animation-delay: 0.5s;
@@ -415,7 +412,7 @@ canvas {
   position: absolute;
   top: 25rem;
 	left: 0rem;
-  animation-name: h1;
+  animation-name: ;
   animation-duration: 1.2s;
   animation-delay: 0.5s;
   animation-direction: alternate;
@@ -514,7 +511,7 @@ li {
 
 .gallery .rebranding {
 	width: 25rem;
-	margin-left: 0rem;
+	margin-left: -5rem;
 	margin-top: 160rem;
 }
 
@@ -601,14 +598,15 @@ li {
 
 .design p {
 	font-family: roboto;
-	margin-left: 8rem;
-	margin-top: 3rem;
+	margin-left: 2rem;
+	margin-top: 30rem;
 	color: black;
 	width: 6.5rem;
 }
 
 .design a {
 	text-decoration: none;
+
 }
 
 .design a p:hover {
@@ -771,6 +769,11 @@ li {
 	border-bottom: 0.1rem solid black;
 }
 
+.design a {
+	position: absolute;
+	top: 300rem;
+}
+
 
 
 .magazine1 {
@@ -876,11 +879,8 @@ margin-bottom: 1rem;
 .halo_gallery p {
 	margin-top: 9rem;
 	margin-left: -1rem;
-	width: 40rem;
+	width: 20rem;
 	font-family: monospace;
-	font-size: 1.5rem;
-	line-height: 1.4rem;
-
 }
 
 
@@ -937,7 +937,7 @@ margin-bottom: 1rem;
 }
 
 .images2 {
-	margin-top: -20rem;
+	margin-top: 7rem;
 }
 
 .images2 img {
@@ -949,7 +949,7 @@ margin-bottom: 1rem;
 
 
 .artwork p {
-	margin-top: 6rem;
+	margin-top: 10rem;
 	margin-left: -1rem;
 	width: 20rem;
 	font-family: monospace;
@@ -964,6 +964,18 @@ margin-bottom: 1rem;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
 }
+
+.images10 {
+	position: absolute;
+	top: 50rem;
+	left: 2rem;
+}
+
+
+
+
+
+
 
 .footer_eventdesign {
 	margin-bottom: 2rem;
@@ -1156,6 +1168,17 @@ margin-bottom: 1rem;
 		width: 40rem;
 	}
 
+  .cursor {
+        pointer-events: none;
+        position: fixed;
+        padding: 1rem;
+        border: 1px solid black;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+  			z-index: 1;
+  }
+
+
 	body {
  width: 100%;
 	}
@@ -1346,6 +1369,7 @@ margin-left: 10rem;
 	margin-left: 48rem;
 	margin-top: -13rem;
 }
+
 
 
 
@@ -1948,10 +1972,10 @@ footer {
 }
 
 .oostende img {
-	width: 50rem;
+	width: 35%;
 	position: absolute;
-	top: 55rem;
-	left: 0rem;
+	top: 53rem;
+	left: 9rem;
 }
 
 .oostende a {
