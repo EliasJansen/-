@@ -10,10 +10,6 @@
 
 body {
 	width: 100%;
-	cursor: none;
-	background: url(background.jpg) no-repeat 50% 50%;
-		background-size: cover;
-		background-attachment: fixed;
 }
 
 
@@ -1181,6 +1177,10 @@ margin-bottom: 1rem;
 
 	body {
  width: 100%;
+ cursor: none;
+ background: url(background.jpg) no-repeat 50% 50%;
+   background-size: cover;
+   background-attachment: fixed;
 	}
 
 	#canvas {
