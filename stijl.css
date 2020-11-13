@@ -2049,12 +2049,14 @@ footer p {
   width: 100%;
   font-family: 'Monument Extended';
   margin-bottom: 3rem;
+  text-align: left;
 }
 
 .tekstoostende p {
   font-size: 1.8rem;
   width: 100%;
   font-family: monospace;
+  text-align: left;
 }
 
 .blok2 video {
