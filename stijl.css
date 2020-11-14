@@ -1236,7 +1236,6 @@ margin-bottom: 1rem;
 
 }
 
-
 .gallery2 img {
 	width: 25rem;
 	margin-left: 40rem;
@@ -1253,7 +1252,6 @@ margin-bottom: 1rem;
 .gallery2 p {
 	margin-left: 50rem;
 }
-
 
 
 .jaar3 {
@@ -1319,7 +1317,6 @@ margin-left: 10rem;
 	margin-top: -10rem;
 }
 
-
 .gallery8 img {
 	width: 25rem;
 	margin-left: 50rem;
@@ -1333,12 +1330,6 @@ margin-left: 10rem;
 	margin-left: 48rem;
 	margin-top: -13rem;
 }
-
-
-
-
-
-
 
 .magazine2 {
 	width: 30rem;
@@ -1964,7 +1955,6 @@ left: 10rem;
 
 }
 
-
 .grid {
   display: grid;
   margin-top: -50rem;
@@ -2079,6 +2069,42 @@ footer p {
 width: 40%;
 }
 
+.blok7 img {
+  width: 80%;
+}
+
+.blok13 img {
+width:  80%;
+}
+
+
+@media (min-width: 1920px) {
+
+.grid {
+  grid-template-columns: 80rem 80rem;
+}
+
+.grid img {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.tekstoostende h1 {
+  font-size: 8rem;
+  width: 100%;
+  font-family: 'Monument Extended';
+  margin-bottom: 7rem;
+  text-align: left;
+}
+
+.tekstoostende p {
+  font-size: 3rem;
+  width: 100%;
+  font-family: monospace;
+  text-align: left;
+}
+
+	}
 
 
 
