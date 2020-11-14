@@ -2080,8 +2080,13 @@ width:  80%;
 
 @media (min-width: 1920px) {
 
+
+h1 {
+  font-size: 8rem;
+}
 .grid {
   grid-template-columns: 80rem 80rem;
+  margin-top: -10rem;
 }
 
 .grid img {
