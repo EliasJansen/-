@@ -418,12 +418,12 @@ li {
 
 
 h1 {
-font-family: 'Monument Extended';;
-font-size: 2.5rem;
+font-family: 'Monument Extended';
 margin-left: auto;
 margin-right: auto;
 text-align: left;
-width: 22rem;
+width: 70%;
+font-size: 2rem;
 animation-name: h1;
 animation-duration: 1.2s;
 animation-delay: 0.5s;
@@ -1061,14 +1061,14 @@ margin-bottom: 1rem;
 
 
 .about1 h2 {
-	font-family: Roboto;
+	font-family: "Monument Extended", sans-serif;
 	font-size: 5rem;
 	margin-top: 2rem;
 	margin-left: -1rem;
 }
 
 .about3 h3 {
-	font-family: Roboto;
+	font-family: "Monument Extended", sans-serif;
 	font-size: 3rem;
 	margin-top: 5rem;
 	margin-left: -1rem;
@@ -1115,6 +1115,8 @@ margin-bottom: 1rem;
 	text-decoration: none;
 	color: black;
 }
+
+
 
 
 
@@ -1664,18 +1666,18 @@ left: 10rem;
 
 
 .about1 h2 {
-	font-family: Roboto;
+	font-family: "Monument Extended", sans-serif;
 	font-size: 5rem;
 	margin-top: 2rem;
 	margin-left: -1rem;
 }
 
 .about3 h3 {
-	font-family: Roboto;
+	font-family: "Monument Extended", sans-serif;
 	font-size: 3rem;
 	margin-top: 5rem;
 	margin-left: -1rem;
-	width: 50rem;
+	width: 50%;
 }
 
 .about4 p {
@@ -2084,14 +2086,42 @@ width:  80%;
 h1 {
   font-size: 8rem;
 }
+
+.about1 h2 {
+  font-size: 8rem;
+}
+
+.about3 h3 {
+  font-size: 6rem;
+}
+.para {
+    color: black;
+    font-family: "Monument Extended", sans-serif;
+    margin: 0;
+    font-size: 35px;
+    width: 100%;
+    font-weight: lighter;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: -80%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
 .grid {
   grid-template-columns: 80rem 80rem;
-  margin-top: -10rem;
+  margin-top: -25rem;
 }
 
 .grid img {
-  width: 80%;
+  width: 65%;
   margin-bottom: 1rem;
+}
+
+.grid video {
+  width: 65%;
 }
 
 .tekstoostende h1 {
